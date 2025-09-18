@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [AutomationExerciseSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="RegisterUserTest(failed)">
+    <parameter name="lastName" value="Deshpande"/>
+    <parameter name="country" value="United States"/>
+    <parameter name="year" value="2001"/>
+    <parameter name="address2" value="Street 2"/>
+    <parameter name="city" value="Seattle"/>
+    <parameter name="address1" value="Street 1"/>
+    <parameter name="mobile" value="9812344500"/>
+    <parameter name="zipcode" value="98111"/>
+    <parameter name="firstName" value="Swapneel"/>
+    <parameter name="password" value="Test@123"/>
+    <parameter name="month" value="May"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="company" value="Leo Lane"/>
+    <parameter name="state" value="New Jersey"/>
+    <parameter name="day" value="5"/>
+    <parameter name="email" value="swapneel@test.com"/>
+    <parameter name="username" value="Swapneel"/>
+    <classes>
+      <class name="tests.RegisterUserTest">
+        <methods>
+          <include name="testRegisterUser"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.RegisterUserTest -->
+    </classes>
+  </test> <!-- RegisterUserTest(failed) -->
+</suite> <!-- Failed suite [AutomationExerciseSuite] -->

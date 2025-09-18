@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="AutomationExerciseSuite">
+	<!--<parameter name="url" value="https://automationexercise.com"></parameter>-->
+	<test name="RegisterUserTest">
+		<parameter name="browser" value="chrome" />
+		<parameter name="username" value="Swapneel" />
+		<parameter name="email" value="swapneel@test.com" />
+		<parameter name="password" value="Test@123" />
+		<parameter name="day" value="5" />
+		<parameter name="month" value="May" />
+		<parameter name="year" value="2001" />
+		<parameter name="firstName" value="Swapneel" />
+		<parameter name="lastName" value="Deshpanswade" />
+		<parameter name="company" value="Leo Lane" />
+		<parameter name="address1" value="Street 1" />
+		<parameter name="address2" value="Street 2" />
+		<parameter name="country" value="United States" />
+		<parameter name="state" value="New Jersey" />
+		<parameter name="city" value="Seattle" />
+		<parameter name="zipcode" value="98111" />
+		<parameter name="mobile" value="9812344500" />
+		<classes>
+			<class name="tests.RegisterUserTest" />
+		</classes>
+	</test> <!--LoginIn-->
+</suite> <!--Suite -->
