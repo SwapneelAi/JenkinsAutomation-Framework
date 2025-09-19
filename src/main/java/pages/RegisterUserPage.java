@@ -115,12 +115,12 @@ public class RegisterUserPage extends BasePage {
 		return isDisplayed(loggedInAs);
 	}
 
-	public void clickDeleteAccount() {
-		click(deleteAccountBtn);
-	}
-
-	public boolean isAccountDeletedVisible() {
-		return isDisplayed(accountDeletedText);
-	}
+//	public void clickDeleteAccount() {
+//		click(deleteAccountBtn);
+//	}
+//
+//	public boolean isAccountDeletedVisible() {
+//		return isDisplayed(accountDeletedText);
+//	}
 
 }

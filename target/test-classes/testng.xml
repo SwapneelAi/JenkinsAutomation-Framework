@@ -2,7 +2,9 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="AutomationExerciseSuite">
 	<!--<parameter name="url" value="https://automationexercise.com"></parameter>-->
+
 	<test name="RegisterUserTest">
+
 		<parameter name="browser" value="chrome" />
 		<parameter name="username" value="Swapneel" />
 		<parameter name="email" value="swapneel@test.com" />
@@ -20,8 +22,16 @@
 		<parameter name="city" value="Seattle" />
 		<parameter name="zipcode" value="98111" />
 		<parameter name="mobile" value="9812344500" />
+
+
 		<classes>
 			<class name="tests.RegisterUserTest" />
 		</classes>
 	</test> <!--LoginIn-->
+
+	<!--<test name="LoginUserTest">
+		<classes>
+			<class name="tests.LoginUserTest"></class>
+		</classes>
+	</test>-->
 </suite> <!--Suite -->

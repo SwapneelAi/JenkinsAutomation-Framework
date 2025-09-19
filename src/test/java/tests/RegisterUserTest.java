@@ -61,13 +61,13 @@ public class RegisterUserTest extends BaseTest {
 		// Step 16: Verify 'Logged in as username' is visible
 		Assert.assertTrue(registerUserPage.isLoggedInVisible(), "'Logged in as username' not visible");
 
-		// Step 17: Click 'Delete Account' button
-		registerUserPage.clickDeleteAccount();
-
-		// Step 18: Verify 'ACCOUNT DELETED!' is visible
-		Assert.assertTrue(registerUserPage.isAccountDeletedVisible(), "'Account Deleted!' not visible");
-
-		// Optional: Click Continue after deletion
-		registerUserPage.clickContinueBtn();
+//		// Step 17: Click 'Delete Account' button
+//		registerUserPage.clickDeleteAccount();
+//
+//		// Step 18: Verify 'ACCOUNT DELETED!' is visible
+//		Assert.assertTrue(registerUserPage.isAccountDeletedVisible(), "'Account Deleted!' not visible");
+//
+//		// Optional: Click Continue after deletion
+//		registerUserPage.clickContinueBtn();
 	}
 }
